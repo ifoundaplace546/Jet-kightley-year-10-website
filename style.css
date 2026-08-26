@@ -2,4 +2,47 @@
   margin: 0;
 }
 
+a {
+  text-decoration:none;
+  color:lightskyblue
+}
 
+body {
+  background:white;
+}
+
+.parent {
+  border: 1px solid lightskyblue;
+  height: 60px;
+}
+
+.children {
+  list-style-type: none;
+  display:flex;
+  float:right;
+  gap:56px;
+  margin: 20px;
+}
+
+.children a:hover, .active {
+  color:lightskyblue;
+}
+
+.children a {
+  position: relative;
+}
+
+.children a::after {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  content: '';
+  height: 1px;
+  width: 0px;
+  background:lightskyblue;
+  transition: width 350ms ease;
+}
+
+.children a:hover::after {
+  width:100%
+}
