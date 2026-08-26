@@ -1,2 +1,4 @@
-# year-10-website
-[Website here!](https://ifoundaplace546.github.io/Jet-kightley-year-10-website/)
+<!DOCYTYPE html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
