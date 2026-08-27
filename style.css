@@ -2,29 +2,50 @@
   margin: 0;
 }
 
+.image-container {
+  display: flex;
+  gap:10px;
+}
+
+.images {
+  border-style: double;
+  border-color: lightblue;
+  border-radius: 20px;
+  border-width: 10px;
+  width:500px
+}
+
+p {
+  color:lightskyblue;
+}
+
+h1 {
+  color:rgb(79, 153, 182);
+  font-family:Georgia
+}
+
+h2 {
+   color:lightskyblue;
+   font-family:Georgia
+}
+
 a {
-  text-decoration:none;
-  color:lightskyblue
+  font-size: 30px;
+  color:lightskyblue;
 }
 
 body {
-  background:white;
+  background: white;
+  display: wrap;
 }
 
 .parent {
-  border: 1px solid lightskyblue;
+  border: 3px solid lightskyblue;
   height: 60px;
+  max-width
 }
 
-.children {
-  list-style-type: none;
-  display:flex;
-  float:right;
-  gap:56px;
-  margin: 20px;
-}
-
-.children a:hover, .active {
+.children a:hover .active {
   color:lightskyblue;
 }
 
